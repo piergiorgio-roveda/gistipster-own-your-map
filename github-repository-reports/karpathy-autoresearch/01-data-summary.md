@@ -10,10 +10,10 @@
 | Descrizione | AI agents running research on single-GPU nanochat training automatically |
 | Linguaggio  | Python                                                                   |
 | Creato      | 2026-03-06                                                               |
-| Stars       | 58.523                                                                   |
-| Forks       | 8105                                                                     |
-| Watchers    | 481                                                                      |
-| Open Issues | 156                                                                      |
+| Stars       | 59.206                                                                   |
+| Forks       | 8205                                                                     |
+| Watchers    | 487                                                                      |
+| Open Issues | 157                                                                      |
 
 ## Attività
 

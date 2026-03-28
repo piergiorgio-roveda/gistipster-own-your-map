@@ -36,7 +36,7 @@ status: draft
 | Bus Factor | 🔴 1      | contributor dominanti                                   |
 | Sicurezza  | ⚪ N/D    | OpenSSF Scorecard                                       |
 | CI/CD      | ⚪ N/D    | da topics repo                                          |
-| Community  | 🟢 58.523 | ★ stars                                                 |
+| Community  | 🟢 59.206 | ★ stars                                                 |
 
 ---
 
@@ -45,13 +45,13 @@ status: draft
 | Campo       | Valore                                                                           |
 | ----------- | -------------------------------------------------------------------------------- |
 | Repository  | [karpathy/autoresearch](https://github.com/karpathy/autoresearch)                |
-| Categoria   | Backend                                                                          |
+| Categoria   | AI / ML                                                                          |
 | Licenza     | —                                                                                |
 | Linguaggio  | Python                                                                           |
-| Stars       | 58.523                                                                           |
-| Forks       | 8105                                                                             |
-| Watchers    | 481                                                                              |
-| Open Issues | 156                                                                              |
+| Stars       | 59.206                                                                           |
+| Forks       | 8205                                                                             |
+| Watchers    | 487                                                                              |
+| Open Issues | 157                                                                              |
 | Creato      | 2026-03-06 (1 mese fa)                                                           |
 | Archivio    | No                                                                               |
 | Fork        | No                                                                               |
@@ -93,7 +93,7 @@ Totale contributors: **8** (8 umani, 0 bot)
 
 | Metrica             | Valore |
 | ------------------- | ------ |
-| Issue aperte        | 156    |
+| Issue aperte        | 157    |
 | Issue chiuse (90gg) | 0      |
 
 ---

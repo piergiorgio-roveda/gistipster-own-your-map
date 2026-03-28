@@ -2,35 +2,24 @@
 
 **Data:** 2026-03-28 **Modello:** gemini-3.1-pro-preview
 
-**Candidati analizzati (5):** FalkorDB/QueryWeaver, google-research/timesfm, mindsdb/mindsdb,
-simstudioai/sim, usestrix/strix
+**Candidati analizzati (4):** duckdb/duckdb, maplibre/maplibre-gl-js, opengeos/leafmap,
+postgis/postgis
 
 ---
 
 ### Alternative Dirette
 
-| Repository                  | Linguaggio | Stars | Motivazione                                                                                                |
-| :-------------------------- | :--------- | :---- | :--------------------------------------------------------------------------------------------------------- |
-| Nessuna alternativa genuina | -          | -     | Nessuno dei candidati automatizza la ricerca e l'addestramento di modelli ML (nanochat) tramite agenti AI. |
-
-### Stesso Ecosistema, Scope Diverso
-
-| Repository                  | Differenza di scope                                                                                                                                                    |
-| :-------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **google-research/timesfm** | È un modello foundation specifico per le previsioni di serie storiche, non un framework di agenti per automatizzare l'addestramento di altri modelli.                  |
-| **simstudioai/sim**         | È una piattaforma general-purpose per creare e orchestrare agenti AI (spesso per workflow aziendali), non un tool hardcoded per la ricerca sul training ML single-GPU. |
-| **mindsdb/mindsdb**         | È un motore di query che integra agenti AI per l'analisi di dati live sui database, scope completamente slegato dall'addestramento di modelli linguistici.             |
-| **usestrix/strix**          | Utilizza agenti AI, ma li applica esclusivamente al dominio della cybersecurity (ricerca di vulnerabilità), non alla ricerca sull'addestramento ML.                    |
-| **FalkorDB/QueryWeaver**    | Strumento frontend per la conversione Text2SQL basato su grafi; appartiene al mondo AI/Data ma risolve un problema di interrogazione database, non di ricerca ML.      |
+Nessuna alternativa genuina identificata tra i candidati forniti.
 
 ### Note sull'Analisi
 
-L'analisi ha evidenziato che `karpathy/autoresearch` è un progetto di nicchia altamente specifico,
-focalizzato sull'uso di agenti AI per automatizzare un task tecnico preciso (l'addestramento di
-modelli "nanochat" su singola GPU). Tutti i repository candidati appartengono al macro-ecosistema
-dell'Intelligenza Artificiale o degli agenti autonomi, ma si rivolgono a domini applicativi
-radicalmente diversi (cybersecurity, orchestrazione general-purpose, time-series, database),
-rendendo impossibile qualsiasi sostituzione diretta.
+L'analisi è stata condotta applicando rigorosamente i criteri di esclusione per scope radicalmente
+diverso. Il repository target (`karpathy/autoresearch`) è uno strumento altamente specializzato nel
+dominio AI/ML, progettato per l'automazione della ricerca e l'addestramento di modelli tramite
+agenti autonomi. I candidati forniti appartengono a domini tecnici completamente differenti:
+GIS/Geospaziale (`postgis`, `leafmap`, `maplibre-gl-js`) e Data Engineering/OLAP (`duckdb`).
+Nonostante `leafmap` condivida l'uso di Python, i casi d'uso e gli utenti target non presentano
+alcuna sovrapposizione.
 
 ---
 

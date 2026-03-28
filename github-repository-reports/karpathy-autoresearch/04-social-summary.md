@@ -1,7 +1,7 @@
 # karpathy/autoresearch — Executive Summary
 
 > **TL;DR:** Analisi di [karpathy/autoresearch](https://github.com/karpathy/autoresearch) — Python —
-> 58.523 ★
+> 59.206 ★
 
 ---
 
@@ -9,9 +9,9 @@
 
 | Metrica        | Valore                              |
 | -------------- | ----------------------------------- |
-| ★ Stars        | 58.523                              |
+| ★ Stars        | 59.206                              |
 | Linguaggio     | Python                              |
-| Categoria      | Backend                             |
+| Categoria      | AI / ML                             |
 | Età            | 1 mese                              |
 | Health Score   | 🔴 3.3/10                           |
 | Maintainer top | @karpathy, @dipeshbabu, @hughdbrown |
