@@ -2,36 +2,30 @@
 
 **Data:** 2026-03-28 **Modello:** gemini-3.1-pro-preview
 
-**Candidati analizzati (4):** duckdb/duckdb, karpathy/autoresearch, maplibre/maplibre-gl-js,
-opengeos/leafmap
+**Candidati analizzati (2):** duckdb/duckdb-spatial, maplibre/maplibre-gl-js
 
 ---
 
 ### Alternative Dirette
 
-Nessuna alternativa genuina tra i candidati forniti.
+| Repository                | Linguaggio | Stars | Motivazione                                                                                                                                                       |
+| :------------------------ | :--------- | :---- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **duckdb/duckdb-spatial** | C          | 674   | Entrambi forniscono capacità geospaziali avanzate a motori database SQL (PostgreSQL vs DuckDB), permettendo l'elaborazione e l'analisi di dati GIS tramite query. |
 
 ### Strumenti Complementari
 
-| Repository                  | Ruolo nel workflow               | Motivazione                                                                                                                                                |
-| :-------------------------- | :------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **maplibre/maplibre-gl-js** | Frontend rendering               | PostGIS elabora e serve i dati spaziali dal backend (es. generando vector tiles), mentre MapLibre li consuma e li renderizza interattivamente nel browser. |
-| **opengeos/leafmap**        | Analisi e visualizzazione Python | Leafmap agisce come client analitico in ambiente Jupyter, potendo interrogare un database PostGIS per estrarre, analizzare e mappare i dati geospaziali.   |
-
-### Stesso Ecosistema, Scope Diverso
-
-| Repository        | Differenza di scope                                                                                                                                                                      |
-| :---------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **duckdb/duckdb** | Entrambi sono database SQL, ma DuckDB è un sistema OLAP in-process orientato all'analisi dati generica, mentre PostGIS è un'estensione spaziale per un RDBMS client-server (PostgreSQL). |
+| Repository                  | Ruolo nel workflow       | Motivazione                                                                                                                                                  |
+| :-------------------------- | :----------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **maplibre/maplibre-gl-js** | Visualizzazione Frontend | PostGIS elabora e archivia i dati spaziali nel backend, mentre MapLibre GL JS li consuma (spesso via vector tiles) per il rendering interattivo nel browser. |
 
 ### Note sull'Analisi
 
-L'analisi si basa sulla rigorosa separazione dei livelli architetturali: PostGIS opera come motore
-di archiviazione e calcolo spaziale backend. I candidati forniti coprono invece il livello frontend
-(MapLibre), l'analisi interattiva in Python (Leafmap) o l'elaborazione analitica in-process
-(DuckDB). Non essendo presente un altro database spaziale o un'estensione RDBMS simile, non vi sono
-alternative dirette. Il repository `karpathy/autoresearch` è stato escluso in quanto appartenente a
-un dominio (AI research agents) completamente estraneo.
+L'analisi si basa sulla netta separazione dei livelli in un'architettura GIS moderna.
+`postgis/postgis` e `duckdb/duckdb-spatial` sono stati classificati come alternative dirette poiché
+entrambi risolvono il problema dell'elaborazione spaziale in-database, sebbene si appoggino a
+paradigmi di database differenti (PostgreSQL è tipicamente client-server per carichi misti, DuckDB è
+embedded e orientato all'OLAP). `maplibre-gl-js` è stato escluso dalle alternative per via del suo
+scope radicalmente diverso (frontend vs database backend).
 
 ---
 
