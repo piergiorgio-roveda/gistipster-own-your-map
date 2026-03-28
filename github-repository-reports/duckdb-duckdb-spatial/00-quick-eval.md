@@ -1,56 +1,49 @@
 # Quick Eval: duckdb/duckdb-spatial
 
-**Data:** 2026-03-27 **Modello:** gemini-3.1-pro-preview **Data Summary:** 01-data-summary.md
+- GitHub: https://github.com/duckdb/duckdb-spatial
+- DeepWiki: https://deepwiki.com/duckdb/duckdb-spatial
+- Web: https://github.com/duckdb
+- Health Score: **3.3/10**
 
----
+## Report Files
 
-### Sintesi
+| # | File | Descrizione |
+| --- | --- | --- |
+| 00 | [00-quick-eval.md](https://github.com/piergiorgio-roveda/gistipster-own-your-map/tree/main/github-repository-reports/duckdb-duckdb-spatial/00-quick-eval.md) | Quick Eval (questo file) |
+| 01 | [01-data-summary.md](https://github.com/piergiorgio-roveda/gistipster-own-your-map/tree/main/github-repository-reports/duckdb-duckdb-spatial/01-data-summary.md) | Data Summary |
+| 02 | [02-llm-analysis.md](https://github.com/piergiorgio-roveda/gistipster-own-your-map/tree/main/github-repository-reports/duckdb-duckdb-spatial/02-llm-analysis.md) | LLM Analysis |
+| 03 | [03-technical-report.md](https://github.com/piergiorgio-roveda/gistipster-own-your-map/tree/main/github-repository-reports/duckdb-duckdb-spatial/03-technical-report.md) | Technical Report |
+| 04 | [04-social-summary.md](https://github.com/piergiorgio-roveda/gistipster-own-your-map/tree/main/github-repository-reports/duckdb-duckdb-spatial/04-social-summary.md) | Social Summary |
+| 05 | [05-key-people.md](https://github.com/piergiorgio-roveda/gistipster-own-your-map/tree/main/github-repository-reports/duckdb-duckdb-spatial/05-key-people.md) | Key People |
 
-Estensione spaziale in C per l'ecosistema DuckDB che, pur avendo suscitato un buon interesse
-iniziale, mostra attualmente evidenti segnali di stagnazione nello sviluppo.
+> 🗝 Per accedere in modo gratuito a tutti i Report e 1000 altri documenti accedi al sistema al mio Google AI personale: https://drive.google.com/drive/folders/1w4vxK4zhlC4nfDZf6S2364GJdAFGOY3N?usp=sharing
 
-### Punti di Forza
+## Sintesi
 
-- **Licenza permissiva**: L'uso della licenza MIT garantisce massima flessibilità per l'adozione in
-  contesti commerciali e open source.
-- **Interesse della community**: Il progetto ha una discreta visibilità nella sua nicchia,
-  testimoniata da 673 stars e 77 forks.
-- **Rete di contributori**: Nonostante lo sbilanciamento, il progetto è riuscito ad attrarre 30
-  contributori totali dalla sua creazione.
+duckdb/duckdb-spatial è un progetto in C con licenza MIT e 674 stelle, ma la sua descrizione esatta e il ruolo nel panorama GIS open source costituiscono un [DATO MANCANTE].
 
-### Rischi e Criticità
+## Punti di Forza
 
-- **Bus Factor critico (1)**: Estrema vulnerabilità del progetto, con un singolo sviluppatore
-  (@Maxxen) che detiene l'85% dei commit totali.
-- **Stallo delle release**: L'ultima release (v0.9.1) risale a ottobre 2023 (oltre due anni fa
-  rispetto alla data di analisi), bloccando di fatto la distribuzione ufficiale di fix e nuove
-  feature.
-- **Sviluppo stagnante**: Attività quasi nulla nel breve termine, con 0 commit negli ultimi 30
-  giorni e solo 10 negli ultimi 90 giorni.
-- **Accumulo di issue**: 94 issue aperte sono un numero preoccupante se rapportato all'attuale
-  assenza di manutenzione attiva.
+- **Licenza permissiva:** il rilascio sotto licenza MIT garantisce massima flessibilità per l'adozione e l'integrazione del progetto in ambienti open source e commerciali.
+- **Interesse della community:** le 674 stars e i 77 fork accumulati dalla creazione a febbraio 2023 evidenziano una forte trazione e validazione da parte degli utenti.
+- **Ecosistema di contributori:** il repository conta 30 contributori totali (29 umani), dimostrando una buona capacità di attrarre sviluppatori esterni nonostante un Bus Factor critico pari a 1.
+- **Sviluppo attivo:** i 10 commit registrati negli ultimi 90 giorni e l'ultimo aggiornamento a gennaio 2026 confermano che il progetto è attivamente mantenuto.
 
-### Raccomandazione
+## Rischi e Criticità
 
-**Valutare con cautela** Sebbene sia l'estensione di riferimento per il dato geospaziale su DuckDB,
-il blocco delle release dal 2023 e la dipendenza vitale da un singolo sviluppatore lo rendono un
-rischio per ambienti di produzione mission-critical. Se ne consiglia l'uso solo se si è disposti a
-compilare dai sorgenti o a farsi carico di eventuali bugfix.
+- **Bus Factor critico:** il progetto dipende quasi totalmente da @Maxxen (1041 commit contro i 55 del secondo contributore) con un Bus Factor di 1, creando un altissimo rischio di abbandono.
+- **Rilasci obsoleti:** l'ultima release (v0.9.1) è datata 12 ottobre 2023, lasciando gli utenti senza aggiornamenti ufficiali da oltre due anni nonostante la presenza di commit successivi.
+- **Attività stagnante:** lo sviluppo recente è fermo, con 0 commit negli ultimi 30 giorni e appena 10 negli ultimi 90 giorni, indicando un blocco della manutenzione attiva.
+- **Carico di issue:** le 95 issue aperte rischiano di accumularsi senza risoluzione a causa del singolo maintainer e del calo di attività ([DATO MANCANTE] su issue chiuse e PR per valutare il reale tasso di smaltimento).
 
-### Punteggio
+## Raccomandazione
 
-**2.5 / 5.0** — Progetto dal grande potenziale architetturale, ma gravemente penalizzato
-dall'assenza di manutenzione recente e da un rischio organizzativo (Bus Factor) troppo elevato.
-
----
+**Valutare con cautela** l'adozione di questa estensione poiché, pur avendo un discreto seguito (674 stars) e una licenza permissiva MIT, presenta un rischio critico legato al Bus Factor pari a 1, con lo sviluppo quasi interamente dipendente da un singolo contributor (@Maxxen). A questo si aggiunge un evidente rallentamento delle attività, con zero commit negli ultimi 30 giorni, 95 issue aperte e nessuna nuova release ufficiale pubblicata dall'ottobre 2023, rendendo il progetto potenzialmente instabile o non manutenuto per ambienti di produzione.
 
 ## ⚠️ Nota sulla Generazione del Contenuto
 
-Questo report è stato generato in parte o nella sua totalità da un sistema di intelligenza
-artificiale (LLM: gemini-3.1-pro-preview).
+Questo report è stato generato in parte da un sistema di intelligenza artificiale (LLM: gemini-3.1-pro-preview).
 
-- **Dati di input**: Metadati, commit, issue e metriche raccolte deterministicamente dalle API
-  GitHub
+- **Dati di input**: Metadati, commit, issue e metriche raccolte deterministicamente dalle API GitHub
 - **Analisi qualitativa**: Generata dall'LLM basandosi esclusivamente sui dati sopra indicati
-- **Verifica richiesta**: Le valutazioni e conclusioni dovrebbero essere verificate da un revisore
-  umano prima di essere utilizzate per decisioni critiche
+- **Verifica richiesta**: Le valutazioni e conclusioni dovrebbero essere verificate da un revisore umano prima di essere utilizzate per decisioni critiche

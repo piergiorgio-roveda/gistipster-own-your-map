@@ -1,6 +1,6 @@
 # Data Summary: duckdb/duckdb-spatial
 
-## Generated: 2026-03-27
+## Generated: 2026-03-28
 
 ## Repository Metadata
 
@@ -10,10 +10,10 @@
 | Linguaggio  | C                     |
 | Licenza     | MIT                   |
 | Creato      | 2023-02-27            |
-| Stars       | 673                   |
+| Stars       | 674                   |
 | Forks       | 77                    |
 | Watchers    | 26                    |
-| Open Issues | 94                    |
+| Open Issues | 95                    |
 
 ## Attività
 
@@ -28,21 +28,8 @@
 
 ## Contributors
 
-Totale: **30** (29 umani) Bus Factor: **1**
+Totale: **30** (29 umani) — Bus Factor: **1**
 
-| #   | Contributor      | Contribuzioni | %     |
-| --- | ---------------- | ------------- | ----- |
-| 1   | @Maxxen          | 1041          | 85.0% |
-| 2   | @yutannihilation | 55            | 4.5%  |
-| 3   | @carlopi         | 48            | 3.9%  |
-| 4   | @szarnyasg       | 20            | 1.6%  |
-| 5   | @bradh           | 6             | 0.5%  |
-| 6   | @DrewScatterday  | 5             | 0.4%  |
-| 7   | @c-herrewijn     | 4             | 0.3%  |
-| 8   | @Mytherin        | 3             | 0.2%  |
-| 9   | @samansmink      | 3             | 0.2%  |
-| 10  | @maiadegraaf     | 2             | 0.2%  |
-| 11  | @NiclasHaderer   | 2             | 0.2%  |
-| 12  | @pinkerltm       | 2             | 0.2%  |
-
-_... e altri 17 contributors_
+@Maxxen (1041), @yutannihilation (55), @carlopi (48), @szarnyasg (20), @bradh (6), @DrewScatterday
+(5), @c-herrewijn (4), @Mytherin (3), @samansmink (3), @maiadegraaf (2), @NiclasHaderer (2),
+@pinkerltm (2), ... e altri 17

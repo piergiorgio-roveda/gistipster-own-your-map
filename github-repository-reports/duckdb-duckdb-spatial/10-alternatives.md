@@ -1,47 +1,32 @@
 # Alternative: duckdb/duckdb-spatial
 
-**Data:** 2026-03-27 **Modello:** gemini-3.1-pro-preview
+**Data:** 2026-03-28 **Modello:** gemini-3.1-pro-preview
 
-**Candidati analizzati (28):** GeoRetina/Arion, GeoinformationSystems/Geodashboard,
-GraphiteEditor/Graphite, agentsmd/agents.md, apache/incubator-baremaps,
-buildingSMART/Sample-Test-Files, developmentseed/tipg, diegomanuel/binance-to-google-sheets,
-evanapplegate/overture-grabber, ewoken/Leaflet.MovingMarker, geostreams/geodashboard,
-geostyler/geostyler, github/awesome-copilot, google/earthengine-community, googlefonts/noto-emoji,
-guildxyz/guild.xyz, justinelliotmeyers/Greece_Census_GIS, karpathy/rendergit,
-kartaview/upload-scripts, mapcomponents/react-map-components-maplibre,
-microsoft/github-copilot-for-data-science, opengeospatial/geoparquet, outline/outline,
-piergiorgio-roveda/copilot-gis-orchestra, pip-install-python/dash-dynamic-grid-layout, ruvnet/ruflo,
-subhadipghorui/geoserver-ol-gis-dashboard, twitter/twemoji
+**Candidati analizzati (2):** maplibre/maplibre-gl-js, postgis/postgis
 
 ---
 
 ### Alternative Dirette
 
-| Repository                  | Linguaggio | Stars | Motivazione                                                                                                                           |
-| :-------------------------- | :--------- | :---- | :------------------------------------------------------------------------------------------------------------------------------------ |
-| Nessuna alternativa genuina | -          | -     | Nessun repository candidato è un motore di database spaziale o un'estensione per l'elaborazione analitica (OLAP) di dati geospaziali. |
-
-### Strumenti Complementari
-
-| Repository                | Ruolo nel workflow            | Motivazione                                                                                                                                         |
-| :------------------------ | :---------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------- |
-| opengeospatial/geoparquet | Formato di archiviazione dati | DuckDB-spatial è ampiamente utilizzato nei workflow di data engineering per leggere, interrogare e generare nativamente file in formato GeoParquet. |
+| Repository      | Linguaggio | Stars | Motivazione                                                                                                                                                                         |
+| :-------------- | :--------- | :---- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| postgis/postgis | PLpgSQL    | 2068  | Entrambi forniscono capacità geospaziali avanzate (tipi di dato, indici, funzioni) a un database relazionale (DuckDB vs PostgreSQL), permettendo l'analisi di dati GIS tramite SQL. |
 
 ### Stesso Ecosistema, Scope Diverso
 
-| Repository                | Differenza di scope                                                                                                                                    |
-| :------------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| apache/incubator-baremaps | Baremaps è un generatore di vector tiles per il web mapping basato su Java/PostGIS, mentre DuckDB-spatial è un motore di calcolo analitico in-process. |
-| developmentseed/tipg      | tipg espone API OGC e tile server per database spaziali esistenti (PostGIS), operando al livello di distribuzione web e non come motore di query.      |
+| Repository              | Differenza di scope                                                                                                                                                                  |
+| :---------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| maplibre/maplibre-gl-js | MapLibre è una libreria frontend per il rendering visivo di mappe interattive nel browser, mentre duckdb-spatial è un motore di calcolo backend per l'elaborazione di dati spaziali. |
 
 ### Note sull'Analisi
 
-L'analisi ha tenuto conto della natura implicita di `duckdb-spatial` (estensione geospaziale per il
-database analitico in-process DuckDB), pur mancando una descrizione esplicita nei dati forniti. Per
-avere un'alternativa genuina, il dataset avrebbe dovuto includere altri motori di calcolo spaziale o
-estensioni di database (es. PostGIS, SpatiaLite, Apache Sedona). I candidati presenti nel dominio
-GIS sono risultati essere prevalentemente librerie frontend, tool di visualizzazione o server di
-distribuzione dati.
+L'analisi ha identificato `postgis` come alternativa genuina a `duckdb-spatial` poiché, sebbene si
+appoggino a DBMS con architetture diverse (DuckDB è in-process/OLAP, PostgreSQL è
+client-server/OLTP), entrambi risolvono il medesimo problema: dotare un database di un motore per
+l'analisi e l'interrogazione di dati geospaziali. La mancanza di una descrizione esplicita per il
+target è stata compensata deducendone lo scopo dal nome e dal contesto dell'ecosistema DuckDB.
+`maplibre` è stato escluso dalle alternative in quanto opera a un livello completamente diverso
+dello stack tecnologico (UI/Frontend vs Data/Backend).
 
 ---
 

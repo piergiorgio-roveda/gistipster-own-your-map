@@ -1,6 +1,6 @@
 # duckdb/duckdb-spatial — Executive Summary
 
-> **TL;DR:** Analisi di [duckdb/duckdb-spatial](https://github.com/duckdb/duckdb-spatial) — C — 673
+> **TL;DR:** Analisi di [duckdb/duckdb-spatial](https://github.com/duckdb/duckdb-spatial) — C — 674
 > ★
 
 ---
@@ -9,7 +9,7 @@
 
 | Metrica        | Valore                              |
 | -------------- | ----------------------------------- |
-| ★ Stars        | 673                                 |
+| ★ Stars        | 674                                 |
 | Linguaggio     | C                                   |
 | Categoria      | Backend                             |
 | Età            | 3 anni                              |

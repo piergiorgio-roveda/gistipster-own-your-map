@@ -1,6 +1,6 @@
 # Key People: duckdb/duckdb-spatial
 
-Generated: 2026-03-27 Source: https://github.com/duckdb/duckdb-spatial
+Generated: 2026-03-28 Source: https://github.com/duckdb/duckdb-spatial
 
 ---
 
