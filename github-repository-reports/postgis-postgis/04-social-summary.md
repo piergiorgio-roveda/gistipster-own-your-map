@@ -1,6 +1,6 @@
 # postgis/postgis — Executive Summary
 
-> **TL;DR:** Analisi di [postgis/postgis](https://github.com/postgis/postgis) — PLpgSQL — 2067 ★
+> **TL;DR:** Analisi di [postgis/postgis](https://github.com/postgis/postgis) — PLpgSQL — 2068 ★
 
 ---
 
@@ -8,8 +8,9 @@
 
 | Metrica        | Valore                  |
 | -------------- | ----------------------- |
-| ★ Stars        | 2067                    |
+| ★ Stars        | 2068                    |
 | Linguaggio     | PLpgSQL                 |
+| Categoria      | Database                |
 | Età            | 13 anni                 |
 | Health Score   | 🟡 5.6/10               |
 | Maintainer top | @strk, @robe2, @pramsey |
