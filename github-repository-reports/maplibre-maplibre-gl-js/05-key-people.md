@@ -1,6 +1,6 @@
 # Key People: maplibre/maplibre-gl-js
 
-Generated: 2026-03-26 Source: https://github.com/maplibre/maplibre-gl-js
+Generated: 2026-03-28 Source: https://github.com/maplibre/maplibre-gl-js
 
 ---
 
@@ -11,7 +11,7 @@ Generated: 2026-03-26 Source: https://github.com/maplibre/maplibre-gl-js
 | 1    | [@jfirebaugh](https://github.com/jfirebaugh)                 | 1621          | 15.4% |
 | 2    | [@ansis](https://github.com/ansis)                           | 1262          | 12.0% |
 | 3    | [@mourner](https://github.com/mourner)                       | 1112          | 10.6% |
-| 4    | [@kkaefer](https://github.com/kkaefer)                       | 478           | 4.6%  |
+| 4    | [@kkaefer](https://github.com/kkaefer)                       | 478           | 4.5%  |
 | 5    | [@tmcw](https://github.com/tmcw)                             | 459           | 4.4%  |
 | 6    | [@lucaswoj](https://github.com/lucaswoj)                     | 320           | 3.0%  |
 | 7    | [@yhahn](https://github.com/yhahn)                           | 296           | 2.8%  |

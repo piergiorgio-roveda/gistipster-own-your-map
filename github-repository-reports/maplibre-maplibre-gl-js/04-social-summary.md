@@ -1,7 +1,7 @@
 # maplibre/maplibre-gl-js — Executive Summary
 
 > **TL;DR:** Analisi di [maplibre/maplibre-gl-js](https://github.com/maplibre/maplibre-gl-js) —
-> TypeScript — 10.236 ★
+> TypeScript — 10.253 ★
 
 ---
 
@@ -9,7 +9,7 @@
 
 | Metrica        | Valore                        |
 | -------------- | ----------------------------- |
-| ★ Stars        | 10.236                        |
+| ★ Stars        | 10.253                        |
 | Linguaggio     | TypeScript                    |
 | Categoria      | Frontend                      |
 | Età            | 5 anni                        |
@@ -21,7 +21,7 @@
 
 ## Attività Recente
 
-- Ultimo commit: **2026-03-26** (🟢 Attivo)
+- Ultimo commit: **2026-03-28** (🟢 Attivo)
 - Commit ultimi 30 giorni: **10**
 - Release totali: **10**
 

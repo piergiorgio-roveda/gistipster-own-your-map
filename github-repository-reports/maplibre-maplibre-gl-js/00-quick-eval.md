@@ -1,58 +1,49 @@
 # Quick Eval: maplibre/maplibre-gl-js
 
-**Data:** 2026-03-26 **Modello:** gemini-3.1-pro-preview **Data Summary:** 01-data-summary.md
+- GitHub: https://github.com/maplibre/maplibre-gl-js
+- DeepWiki: https://deepwiki.com/maplibre/maplibre-gl-js
+- Web: https://maplibre.org/maplibre-gl-js/docs/
+- Health Score: **7.8/10**
 
----
+## Report Files
 
-### Sintesi
+| # | File | Descrizione |
+| --- | --- | --- |
+| 00 | [00-quick-eval.md](https://github.com/piergiorgio-roveda/gistipster-own-your-map/tree/main/github-repository-reports/maplibre-maplibre-gl-js/00-quick-eval.md) | Quick Eval (questo file) |
+| 01 | [01-data-summary.md](https://github.com/piergiorgio-roveda/gistipster-own-your-map/tree/main/github-repository-reports/maplibre-maplibre-gl-js/01-data-summary.md) | Data Summary |
+| 02 | [02-llm-analysis.md](https://github.com/piergiorgio-roveda/gistipster-own-your-map/tree/main/github-repository-reports/maplibre-maplibre-gl-js/02-llm-analysis.md) | LLM Analysis |
+| 03 | [03-technical-report.md](https://github.com/piergiorgio-roveda/gistipster-own-your-map/tree/main/github-repository-reports/maplibre-maplibre-gl-js/03-technical-report.md) | Technical Report |
+| 04 | [04-social-summary.md](https://github.com/piergiorgio-roveda/gistipster-own-your-map/tree/main/github-repository-reports/maplibre-maplibre-gl-js/04-social-summary.md) | Social Summary |
+| 05 | [05-key-people.md](https://github.com/piergiorgio-roveda/gistipster-own-your-map/tree/main/github-repository-reports/maplibre-maplibre-gl-js/05-key-people.md) | Key People |
 
-MapLibre GL JS è una libreria TypeScript di riferimento nel panorama open source per il rendering di
-mappe vettoriali web, caratterizzata da un'altissima adozione ma con metriche di sviluppo recenti
-che richiedono attenzione.
+> 🗝 Per accedere in modo gratuito a tutti i Report e 1000 altri documenti accedi al sistema al mio Google AI personale: https://drive.google.com/drive/folders/1w4vxK4zhlC4nfDZf6S2364GJdAFGOY3N?usp=sharing
 
-### Punti di Forza
+## Sintesi
 
-- **Adozione massiva:** Con oltre 10.000 star e più di 1.000 fork, il progetto gode di un'eccellente
-  validazione da parte della community GIS.
-- **Stack tecnologico solido:** L'uso di TypeScript garantisce maggiore robustezza, tipizzazione e
-  manutenibilità per integrazioni enterprise.
-- **Release management attivo:** Nonostante un basso volume di commit, il progetto è attivamente
-  pacchettizzato e distribuito (ultima release v5.21.1 rilasciata a ridosso dell'analisi).
-- **Storico contributori:** La base di codice beneficia dell'impronta di sviluppatori storici e
-  altamente specializzati nel web mapping vettoriale.
+MapLibre GL JS è un progetto TypeScript da oltre diecimila stelle che arricchisce il panorama GIS open source fornendo mappe interattive basate su vector tile direttamente nel browser.
 
-### Rischi e Criticità
+## Punti di Forza
 
-- **Ambiguità legale:** Il metadato della licenza riporta "NOASSERTION", rendendo obbligatoria una
-  due-diligence legale prima di qualsiasi integrazione commerciale.
-- **Rallentamento dello sviluppo:** Solo 10 commit negli ultimi 90 giorni (tutti concentrati negli
-  ultimi 30), un volume anomalo e molto basso per un progetto di questa portata.
-- **Accumulo di issue:** Le 412 issue aperte, confrontate con il basso rateo di commit recenti,
-  suggeriscono una potenziale difficoltà del team nel gestire il triage e la risoluzione dei bug.
-- **Bus Factor limitato:** Un valore pari a 4 indica che la conoscenza critica del progetto è
-  concentrata in un nucleo molto ristretto di maintainer.
+- **Popolarità elevata:** il repository registra 10.253 stars e 1048 forks, evidenziando un forte interesse e un'ampia adozione.
+- **Sviluppo attivo:** l'ultimo commit è datato 2026-03-28 e l'ultima release (v5.21.1) risale al 2026-03-25, dimostrando un mantenimento costante.
+- **Resilienza del team:** il progetto conta 30 contributors totali (28 umani) e un Bus Factor di 4, indicando una conoscenza distribuita tra più sviluppatori.
+- **Focus tecnologico:** il progetto è sviluppato in TypeScript ed è mirato specificamente alla gestione di mappe vettoriali interattive nel browser.
 
-### Raccomandazione
+## Rischi e Criticità
 
-**Valutare con cautela** Sebbene sia uno standard _de facto_ per il web mapping vettoriale,
-l'anomalia sui metadati della licenza e il drastico calo dei commit recenti a fronte di molte issue
-aperte richiedono un'attenta valutazione prima di legare architetture critiche a questa specifica
-versione.
+- **Licenza invalida:** Il valore NOASSERTION per la licenza rappresenta un rischio legale critico che impedisce l'adozione sicura in ambienti enterprise.
+- **Stallo dello sviluppo:** I 10 commit negli ultimi 30 giorni coincidono esattamente con i commit degli ultimi 90 giorni, indicando zero attività nei due mesi precedenti.
+- **Bus Factor basso:** La concentrazione della conoscenza in soli 4 sviluppatori chiave su 28 contributori umani è un rischio per la continuità di un progetto con oltre 10.000 stelle.
+- **Saturazione manutenzione:** Le 399 issue aperte sono un numero critico se confrontato con la bassa frequenza di commit recente e il numero limitato di contributori attivi.
 
-### Punteggio
+## Raccomandazione
 
-**3.8 / 5.0** — Progetto leader per popolarità e utilità, ma penalizzato dall'incertezza sulla
-licenza e da metriche di manutenzione recente sottotono.
-
----
+**Valutare con cautela** l'adozione del progetto poiché, nonostante gli ottimi indicatori di popolarità con oltre 10.000 stelle, un bus factor solido pari a 4 e rilasci estremamente recenti come la v5.21.1, il campo licenza riporta il valore NOASSERTION, imponendo una verifica legale obbligatoria prima di qualsiasi integrazione in ambienti di produzione.
 
 ## ⚠️ Nota sulla Generazione del Contenuto
 
-Questo report è stato generato in parte o nella sua totalità da un sistema di intelligenza
-artificiale (LLM: gemini-3.1-pro-preview).
+Questo report è stato generato in parte da un sistema di intelligenza artificiale (LLM: gemini-3.1-pro-preview).
 
-- **Dati di input**: Metadati, commit, issue e metriche raccolte deterministicamente dalle API
-  GitHub
+- **Dati di input**: Metadati, commit, issue e metriche raccolte deterministicamente dalle API GitHub
 - **Analisi qualitativa**: Generata dall'LLM basandosi esclusivamente sui dati sopra indicati
-- **Verifica richiesta**: Le valutazioni e conclusioni dovrebbero essere verificate da un revisore
-  umano prima di essere utilizzate per decisioni critiche
+- **Verifica richiesta**: Le valutazioni e conclusioni dovrebbero essere verificate da un revisore umano prima di essere utilizzate per decisioni critiche
