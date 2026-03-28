@@ -1,0 +1,1 @@
+By contributing, you agree that your content will be licensed under CC BY 4.0 and may be used for commercial purposes.
