@@ -1,6 +1,6 @@
 # Key People: duckdb/duckdb
 
-Generated: 2026-03-27 Source: https://github.com/duckdb/duckdb
+Generated: 2026-03-28 Source: https://github.com/duckdb/duckdb
 
 ---
 
@@ -8,7 +8,7 @@ Generated: 2026-03-27 Source: https://github.com/duckdb/duckdb
 
 | Rank | GitHub                                                   | Contribuzioni | %     |
 | ---- | -------------------------------------------------------- | ------------- | ----- |
-| 1    | [@Mytherin](https://github.com/Mytherin)                 | 23.204        | 40.4% |
+| 1    | [@Mytherin](https://github.com/Mytherin)                 | 23.247        | 40.4% |
 | 2    | [@Tishj](https://github.com/Tishj)                       | 6850          | 11.9% |
 | 3    | [@pdet](https://github.com/pdet)                         | 4851          | 8.4%  |
 | 4    | [@hannes](https://github.com/hannes)                     | 3513          | 6.1%  |
@@ -29,9 +29,9 @@ Generated: 2026-03-27 Source: https://github.com/duckdb/duckdb
 | 19   | [@EtgarDev](https://github.com/EtgarDev)                 | 365           | 0.6%  |
 | 20   | [@artjomPlaunov](https://github.com/artjomPlaunov)       | 360           | 0.6%  |
 | 21   | [@kryonix](https://github.com/kryonix)                   | 333           | 0.6%  |
-| 22   | [@dentiny](https://github.com/dentiny)                   | 279           | 0.5%  |
+| 22   | [@dentiny](https://github.com/dentiny)                   | 280           | 0.5%  |
 | 23   | [@d-justen](https://github.com/d-justen)                 | 250           | 0.4%  |
-| 24   | [@yan-alex](https://github.com/yan-alex)                 | 209           | 0.4%  |
+| 24   | [@yan-alex](https://github.com/yan-alex)                 | 215           | 0.4%  |
 | 25   | [@c-herrewijn](https://github.com/c-herrewijn)           | 199           | 0.3%  |
 | 26   | [@diegomestre2](https://github.com/diegomestre2)         | 194           | 0.3%  |
 | 27   | [@szarnyasg](https://github.com/szarnyasg)               | 185           | 0.3%  |
