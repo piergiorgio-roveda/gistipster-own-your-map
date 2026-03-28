@@ -1,6 +1,6 @@
 # Data Summary: opengeos/leafmap
 
-## Generated: 2026-03-27
+## Generated: 2026-03-28
 
 ## Repository Metadata
 
@@ -29,21 +29,8 @@
 
 ## Contributors
 
-Totale: **30** (28 umani) Bus Factor: **1**
+Totale: **30** (28 umani) — Bus Factor: **1**
 
-| #   | Contributor   | Contribuzioni | %     |
-| --- | ------------- | ------------- | ----- |
-| 1   | @giswqs       | 1475          | 92.5% |
-| 2   | @slowy07      | 30            | 1.9%  |
-| 3   | @rowheat02    | 7             | 0.4%  |
-| 4   | @darrenwiens  | 4             | 0.3%  |
-| 5   | @lopezvoliver | 4             | 0.3%  |
-| 6   | @sdruskat     | 3             | 0.2%  |
-| 7   | @neteler      | 2             | 0.1%  |
-| 8   | @hatembk      | 2             | 0.1%  |
-| 9   | @sugatoray    | 2             | 0.1%  |
-| 10  | @mscolnick    | 2             | 0.1%  |
-| 11  | @Dseal95      | 2             | 0.1%  |
-| 12  | @cmspeed      | 2             | 0.1%  |
-
-_... e altri 16 contributors_
+@giswqs (1475), @slowy07 (30), @rowheat02 (7), @darrenwiens (4), @lopezvoliver (4), @sdruskat (3),
+@neteler (2), @hatembk (2), @sugatoray (2), @mscolnick (2), @Dseal95 (2), @cmspeed (2), ... e altri
+16
