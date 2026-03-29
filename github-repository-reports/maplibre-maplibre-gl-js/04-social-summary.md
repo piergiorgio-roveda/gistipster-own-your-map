@@ -1,7 +1,7 @@
 # maplibre/maplibre-gl-js — Executive Summary
 
 > **TL;DR:** Analisi di [maplibre/maplibre-gl-js](https://github.com/maplibre/maplibre-gl-js) —
-> TypeScript — 10.253 ★
+> TypeScript — 10.255 ★
 
 ---
 
@@ -9,7 +9,7 @@
 
 | Metrica        | Valore                        |
 | -------------- | ----------------------------- |
-| ★ Stars        | 10.253                        |
+| ★ Stars        | 10.255                        |
 | Linguaggio     | TypeScript                    |
 | Categoria      | Frontend                      |
 | Età            | 5 anni                        |

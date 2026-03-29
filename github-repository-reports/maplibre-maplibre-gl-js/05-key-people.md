@@ -1,6 +1,6 @@
 # Key People: maplibre/maplibre-gl-js
 
-Generated: 2026-03-28 Source: https://github.com/maplibre/maplibre-gl-js
+Generated: 2026-03-29 Source: https://github.com/maplibre/maplibre-gl-js
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 repo: maplibre/maplibre-gl-js
 url: https://github.com/maplibre/maplibre-gl-js
-date_analysis: 2026-03-28
+date_analysis: 2026-03-29
 version: 1
 analyst: pipeline/report-builder
 status: draft
@@ -10,7 +10,7 @@ status: draft
 # maplibre/maplibre-gl-js — Valutazione Tecnica
 
 > **Repository**: [maplibre/maplibre-gl-js](https://github.com/maplibre/maplibre-gl-js) | **Data
-> analisi**: 2026-03-28 | **Versione**: 1
+> analisi**: 2026-03-29 | **Versione**: 1
 
 ---
 
@@ -37,7 +37,7 @@ status: draft
 | Bus Factor | 🟢 4      | contributor dominanti                                   |
 | Sicurezza  | ⚪ N/D    | OpenSSF Scorecard                                       |
 | CI/CD      | ⚪ N/D    | da topics repo                                          |
-| Community  | 🟢 10.253 | ★ stars                                                 |
+| Community  | 🟢 10.255 | ★ stars                                                 |
 
 ---
 
@@ -49,10 +49,10 @@ status: draft
 | Categoria   | Frontend                                                                                     |
 | Licenza     | NOASSERTION                                                                                  |
 | Linguaggio  | TypeScript                                                                                   |
-| Stars       | 10.253                                                                                       |
+| Stars       | 10.255                                                                                       |
 | Forks       | 1048                                                                                         |
 | Watchers    | 95                                                                                           |
-| Open Issues | 399                                                                                          |
+| Open Issues | 397                                                                                          |
 | Creato      | 2020-12-08 (5 anni fa)                                                                       |
 | Archivio    | No                                                                                           |
 | Fork        | No                                                                                           |
@@ -114,7 +114,7 @@ _... e altri 16 contributors_
 
 | Metrica             | Valore |
 | ------------------- | ------ |
-| Issue aperte        | 399    |
+| Issue aperte        | 397    |
 | Issue chiuse (90gg) | 0      |
 
 ---

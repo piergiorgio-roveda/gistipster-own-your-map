@@ -1,6 +1,6 @@
 # Data Summary: maplibre/maplibre-gl-js
 
-## Generated: 2026-03-28
+## Generated: 2026-03-29
 
 ## Repository Metadata
 
@@ -11,10 +11,10 @@
 | Linguaggio  | TypeScript                                                   |
 | Licenza     | NOASSERTION                                                  |
 | Creato      | 2020-12-08                                                   |
-| Stars       | 10.253                                                       |
+| Stars       | 10.255                                                       |
 | Forks       | 1048                                                         |
 | Watchers    | 95                                                           |
-| Open Issues | 399                                                          |
+| Open Issues | 397                                                          |
 
 ## Attività
 
