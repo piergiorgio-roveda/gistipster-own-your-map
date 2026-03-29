@@ -1,51 +1,46 @@
 # Quick Eval: nextgis/quickmapservices
 
-**Data:** 2026-03-26 **Modello:** gemini-3.1-pro-preview **Data Summary:** 01-data-summary.md
+- GitHub: https://github.com/nextgis/quickmapservices
+- DeepWiki: https://deepwiki.com/nextgis/quickmapservices
+- Web: https://plugins.qgis.org/plugins/quick_map_services/
+- Health Score: **7.8/10**
 
----
+## Report Files
 
-### Sintesi
+| # | File | Descrizione |
+| --- | --- | --- |
+| 00 | [00-quick-eval.md](https://github.com/piergiorgio-roveda/gistipster-own-your-map/tree/main/github-repository-reports/nextgis-quickmapservices/00-quick-eval.md) | Quick Eval (questo file) |
+| 01 | [01-data-summary.md](https://github.com/piergiorgio-roveda/gistipster-own-your-map/tree/main/github-repository-reports/nextgis-quickmapservices/01-data-summary.md) | Data Summary |
+| 02 | [02-llm-analysis.md](https://github.com/piergiorgio-roveda/gistipster-own-your-map/tree/main/github-repository-reports/nextgis-quickmapservices/02-llm-analysis.md) | LLM Analysis |
+| 03 | [03-technical-report.md](https://github.com/piergiorgio-roveda/gistipster-own-your-map/tree/main/github-repository-reports/nextgis-quickmapservices/03-technical-report.md) | Technical Report |
+| 04 | [04-social-summary.md](https://github.com/piergiorgio-roveda/gistipster-own-your-map/tree/main/github-repository-reports/nextgis-quickmapservices/04-social-summary.md) | Social Summary |
+| 05 | [05-key-people.md](https://github.com/piergiorgio-roveda/gistipster-own-your-map/tree/main/github-repository-reports/nextgis-quickmapservices/05-key-people.md) | Key People |
 
-Un plugin storico e consolidato per l'ecosistema QGIS che semplifica l'integrazione di servizi
-mappa, supportato dal team di NextGIS.
+> 🗝 Per accedere in modo gratuito a tutti i Report e 1000 altri documenti accedi al sistema al mio Google AI personale: https://drive.google.com/drive/folders/1w4vxK4zhlC4nfDZf6S2364GJdAFGOY3N?usp=sharing
 
-### Punti di Forza
+## Sintesi
 
-- **Maturità:** Progetto stabile e ampiamente testato nel tempo, attivo dal 2014.
-- **Resilienza del team:** Rischio di abbandono mitigato da un Bus Factor solido (4) e da una
-  distribuzione equilibrata del codice tra i primi 6 sviluppatori.
-- **Compatibilità:** Licenza GPL-2.0 nativamente allineata agli standard e ai requisiti
-  dell'ecosistema QGIS.
+Sviluppato in Python sotto licenza GPL-2.0, QuickMapServices è un plugin per QGIS che permette di trovare e aggiungere servizi mappa con un clic, fungendo da essenziale strumento di integrazione rapida nel panorama GIS open source.
 
-### Rischi e Criticità
+## Punti di Forza
 
-- **Sviluppo stagnante:** Il progetto è in chiara fase di manutenzione passiva, con 1 solo commit
-  registrato negli ultimi 90 giorni.
-- **Gestione delle release:** Storico dei rilasci anomalo e lentissimo (solo 3 release totali in
-  oltre 11 anni di vita del progetto).
-- **Smaltimento issue:** Il backlog di 25 issue aperte, rapportato al volume quasi nullo di commit
-  recenti, indica una scarsa reattività nella risoluzione di bug o richieste della community.
+• **Sviluppo attivo:** il progetto è attivamente mantenuto, con ultimo commit e release 1.2.1 datati 2026-03-27 e 10 commit negli ultimi 30 giorni. • **Resilienza del team:** la presenza di 23 contributori totali e un Bus Factor di 4 indicano una buona distribuzione delle competenze senza dipendenza da un singolo sviluppatore. • **Longevità:** creato nel 2014-11-24, il repository dimostra continuità e stabilità nel panorama dei plugin QGIS. • **Adozione:** le 188 stars e i 53 forks confermano un solido interesse e utilizzo da parte della community.
 
-### Raccomandazione
+## Rischi e Criticità
 
-**Adottare** Si tratta di uno strumento maturo, stabile e dal perimetro funzionale molto specifico.
-Per l'uso operativo in QGIS il rischio è minimo, e la bassa frequenza di aggiornamento è accettabile
-data la natura consolidata del plugin.
+- **Frequenza di rilascio anomala:** il progetto è attivo dal 2014 ma conta solamente 5 release totali, evidenziando cicli di distribuzione storicamente molto lenti nonostante il recente aggiornamento.
+- **Sviluppo irregolare:** i 10 commit degli ultimi 30 giorni coincidono con il totale degli ultimi 90 giorni, dimostrando un'assenza di contributi nei due mesi precedenti e un'attività a picchi.
+- **Gestione delle issue:** le 24 issue aperte rappresentano un volume critico se confrontato con le sole 5 release storiche, suggerendo un potenziale accumulo di debito tecnico o bug irrisolti.
+- **Qualità e validazione del codice:** [DATO MANCANTE] per valutare la copertura dei test, l'analisi statica del codice Python e la presenza di pipeline CI/CD a garanzia della stabilità del plugin.
 
-### Punteggio
+## Raccomandazione
 
-**3.8 / 5.0** — Progetto affidabile e con un team ben distribuito, ma penalizzato da metriche di
-attività e rilascio attualmente molto deboli.
-
----
+**Adottare** poiché il progetto risulta maturo e attivamente manutenuto, con l'ultimo commit e la release 1.2.1 datati 27 marzo 2026, supportato da una solida base di 23 contributori e un rassicurante Bus Factor di 4 che mitiga i rischi di abbandono, rendendo questo plugin QGIS in Python sotto licenza GPL-2.0 una soluzione stabile e affidabile per l'integrazione di servizi mappa.
 
 ## ⚠️ Nota sulla Generazione del Contenuto
 
-Questo report è stato generato in parte o nella sua totalità da un sistema di intelligenza
-artificiale (LLM: gemini-3.1-pro-preview).
+Questo report è stato generato in parte da un sistema di intelligenza artificiale (LLM: gemini-3.1-pro-preview).
 
-- **Dati di input**: Metadati, commit, issue e metriche raccolte deterministicamente dalle API
-  GitHub
+- **Dati di input**: Metadati, commit, issue e metriche raccolte deterministicamente dalle API GitHub
 - **Analisi qualitativa**: Generata dall'LLM basandosi esclusivamente sui dati sopra indicati
-- **Verifica richiesta**: Le valutazioni e conclusioni dovrebbero essere verificate da un revisore
-  umano prima di essere utilizzate per decisioni critiche
+- **Verifica richiesta**: Le valutazioni e conclusioni dovrebbero essere verificate da un revisore umano prima di essere utilizzate per decisioni critiche

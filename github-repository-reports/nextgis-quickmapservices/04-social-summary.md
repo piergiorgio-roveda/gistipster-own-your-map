@@ -1,29 +1,29 @@
 # nextgis/quickmapservices — Executive Summary
 
 > **TL;DR:** Analisi di [nextgis/quickmapservices](https://github.com/nextgis/quickmapservices) —
-> Python — 186 ★
+> Python — 188 ★
 
 ---
 
 ## Il Progetto in Numeri
 
-| Metrica        | Valore                               |
-| -------------- | ------------------------------------ |
-| ★ Stars        | 186                                  |
-| Linguaggio     | Python                               |
-| Categoria      | Plugin                               |
-| Età            | 11 anni                              |
-| Health Score   | 🟢 7.8/10                            |
-| Ultima release | 1.1.0                                |
-| Maintainer top | @yellow-sky, @simgislab, @alisovenko |
+| Metrica        | Valore                                 |
+| -------------- | -------------------------------------- |
+| ★ Stars        | 188                                    |
+| Linguaggio     | Python                                 |
+| Categoria      | Plugin                                 |
+| Età            | 11 anni                                |
+| Health Score   | 🟢 7.8/10                              |
+| Ultima release | 1.2.1                                  |
+| Maintainer top | @yellow-sky, @simgislab, @ivanbarsukov |
 
 ---
 
 ## Attività Recente
 
-- Ultimo commit: **2026-03-11** (🟢 Attivo)
-- Commit ultimi 30 giorni: **1**
-- Release totali: **3**
+- Ultimo commit: **2026-03-27** (🟢 Attivo)
+- Commit ultimi 30 giorni: **10**
+- Release totali: **5**
 
 ---
 
