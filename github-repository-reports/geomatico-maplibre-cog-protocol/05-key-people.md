@@ -1,6 +1,6 @@
 # Key People: geomatico/maplibre-cog-protocol
 
-Generated: 2026-03-26 Source: https://github.com/geomatico/maplibre-cog-protocol
+Generated: 2026-04-03 Source: https://github.com/geomatico/maplibre-cog-protocol
 
 ---
 

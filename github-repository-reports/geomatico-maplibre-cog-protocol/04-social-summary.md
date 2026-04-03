@@ -21,7 +21,7 @@
 
 ## Attività Recente
 
-- Ultimo commit: **2025-10-03** (🟢 Attivo)
+- Ultimo commit: **2025-10-03** (🟡 Rallentato)
 - Commit ultimi 30 giorni: **0**
 
 ---
