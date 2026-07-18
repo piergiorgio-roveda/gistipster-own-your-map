@@ -1,6 +1,6 @@
 # postgis/postgis — Executive Summary
 
-> **TL;DR:** Analisi di [postgis/postgis](https://github.com/postgis/postgis) — PLpgSQL — 2068 ★
+> **TL;DR:** Analisi di [postgis/postgis](https://github.com/postgis/postgis) — PLpgSQL — 2075 ★
 
 ---
 
@@ -8,7 +8,7 @@
 
 | Metrica        | Valore                  |
 | -------------- | ----------------------- |
-| ★ Stars        | 2068                    |
+| ★ Stars        | 2075                    |
 | Linguaggio     | PLpgSQL                 |
 | Categoria      | Database                |
 | Età            | 13 anni                 |
@@ -19,7 +19,7 @@
 
 ## Attività Recente
 
-- Ultimo commit: **2026-03-25** (🟢 Attivo)
+- Ultimo commit: **2026-04-02** (🟢 Attivo)
 - Commit ultimi 30 giorni: **10**
 
 ---

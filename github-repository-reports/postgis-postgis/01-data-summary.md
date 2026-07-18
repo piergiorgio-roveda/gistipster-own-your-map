@@ -1,6 +1,6 @@
 # Data Summary: postgis/postgis
 
-## Generated: 2026-03-28
+## Generated: 2026-04-05
 
 ## Repository Metadata
 
@@ -11,16 +11,16 @@
 | Linguaggio  | PLpgSQL                                                   |
 | Licenza     | GPL-2.0                                                   |
 | Creato      | 2012-05-22                                                |
-| Stars       | 2068                                                      |
-| Forks       | 422                                                       |
+| Stars       | 2075                                                      |
+| Forks       | 423                                                       |
 | Watchers    | 66                                                        |
-| Open Issues | 3                                                         |
+| Open Issues | 1                                                         |
 
 ## Attività
 
 | Metrica       | Valore     |
 | ------------- | ---------- |
-| Ultimo commit | 2026-03-25 |
+| Ultimo commit | 2026-04-02 |
 | Commit 30gg   | 10         |
 | Commit 90gg   | 10         |
 
@@ -28,6 +28,6 @@
 
 Totale: **30** (30 umani) — Bus Factor: **3**
 
-@strk (6198), @robe2 (4471), @pramsey (2915), @dustymugs (831), @yellow-affrc (442), @Komzpa (330),
+@strk (6199), @robe2 (4471), @pramsey (2928), @dustymugs (831), @yellow-affrc (442), @Komzpa (330),
 @dr-jts (220), @markusschaber (150), @davidblasby (138), @Algunenano (137), @weblate (133), @dbaston
 (121), ... e altri 18

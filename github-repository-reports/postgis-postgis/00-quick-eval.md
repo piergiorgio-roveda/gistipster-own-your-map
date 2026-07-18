@@ -20,22 +20,22 @@
 
 ## Sintesi
 
-PostGIS è un'estensione spaziale per PostgreSQL distribuita con licenza GPL-2.0 che, operando come mirror scritto in PLpgSQL, si afferma nel panorama GIS open source con una solida base di 2068 stelle e 422 fork.
+PostGIS è un'estensione di database spaziale per PostgreSQL scritta in PLpgSQL con licenza GPL-2.0, che consolida il suo ruolo nel panorama GIS open source come soluzione ampiamente adottata con oltre duemila stelle e quattrocento fork.
 
 ## Punti di Forza
 
-- **Longevità e popolarità:** creato nel 2012, il progetto dimostra un forte interesse consolidato nel tempo con 2068 stelle e 422 fork.
-- **Manutenzione attiva:** il repository è costantemente aggiornato, con l'ultimo commit registrato il 2026-03-25 e 10 commit negli ultimi 30 giorni.
-- **Gestione issue:** la presenza di sole 3 issue aperte a fronte dell'alta popolarità indica un'elevata efficienza nella gestione delle segnalazioni.
-- **Storico contributi:** i tre top contributor (@strk, @robe2, @pramsey) possiedono migliaia di commit ciascuno, garantendo una forte continuità e conoscenza storica del progetto.
+• **Adozione e storicità:** progetto creato nel 2012 con solida base utenti dimostrata da 2075 stars e 423 forks. • **Manutenzione attiva:** sviluppo costante con l'ultimo commit il 2026-04-02 e 10 commit negli ultimi 30 giorni. • **Gestione issue:** backlog quasi inesistente con 1 sola open issue a fronte di un'alta storicità. • **Commitment dei maintainer:** base di 30 contributori con i primi tre sviluppatori che hanno apportato migliaia di commit storici (da 2928 a 6199).
 
 ## Rischi e Criticità
 
-- **Bus Factor critico:** il progetto dipende quasi interamente da soli 3 sviluppatori (@strk, @robe2, @pramsey) su 30 totali, creando un altissimo rischio di stallo operativo in caso di loro abbandono. - **Visibilità limitata dal mirror:** essendo il repository etichettato come "[mirror]" con sole 3 issue aperte a fronte di 2068 star, [DATO MANCANTE] sul repository "core" originale per valutare il reale tracciamento dei bug e le metriche di code review. - **Attività di sviluppo a singhiozzo:** il numero di commit degli ultimi 30 giorni coincide esattamente con quello degli ultimi 90 giorni (10 commit), dimostrando un'assenza totale di integrazioni nei due mesi precedenti e una manutenzione irregolare. - **Centralizzazione del know-how:** il divario di contributi tra i primi tre autori e il resto del team è estremo (il quarto contributore ha 831 commit contro i 6198 del primo), evidenziando un grave collo di bottiglia nella scalabilità e condivisione delle competenze tecniche.
+- **Bus Factor basso:** il progetto ha un Bus Factor di 3 su 30 contributori totali, indicando un'alta dipendenza da un nucleo ristretto di sviluppatori storici per il mantenimento.
+- **Attività discontinua:** la presenza di 10 commit sia negli ultimi 30 che negli ultimi 90 giorni evidenzia un periodo di 60 giorni con zero commit, segno di cicli di sviluppo stagnanti o irregolari.
+- **Gestione contributi:** essendo esplicitamente un "[mirror]", c'è il rischio pratico che gli utenti aprano issue (attualmente 1 aperta) o propongano modifiche nel repository sbagliato frammentando il tracciamento.
+- **Stato del codice:** [DATO MANCANTE] per valutare metriche di code quality, copertura dei test e configurazione delle pipeline di CI/CD.
 
 ## Raccomandazione
 
-**Adottare** questo repository poiché mostra un'eccellente longevità dal 2012, un'attività di manutenzione costante con commit a soli tre giorni dalla data di analisi e un numero irrisorio di issue aperte (solo 3). Sebbene il bus factor sia limitato a 3, l'elevato numero di fork (422) e la presenza di contributori storici con migliaia di commit garantiscono un'altissima affidabilità, anche se per una validazione tecnica completa [DATO MANCANTE] relativo alla copertura dei test e alle metriche di sicurezza.
+**Adottare**. Il progetto mostra una solida maturità dal 2012 e un'eccellente manutenzione con commit recentissimi e un solo issue aperto, confermandosi estremamente stabile. Sebbene il bus factor sia limitato a 3, l'elevato numero di star e fork, unito all'enorme mole di contributi storici dei maintainer principali, garantisce un'elevata affidabilità per l'uso in produzione.
 
 ## ⚠️ Nota sulla Generazione del Contenuto
 

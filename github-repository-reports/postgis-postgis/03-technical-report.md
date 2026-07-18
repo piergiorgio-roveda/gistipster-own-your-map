@@ -1,7 +1,7 @@
 ---
 repo: postgis/postgis
 url: https://github.com/postgis/postgis
-date_analysis: 2026-03-28
+date_analysis: 2026-04-05
 version: 1
 analyst: pipeline/report-builder
 status: draft
@@ -10,7 +10,7 @@ status: draft
 # postgis/postgis — Valutazione Tecnica
 
 > **Repository**: [postgis/postgis](https://github.com/postgis/postgis) | **Data analisi**:
-> 2026-03-28 | **Versione**: 1
+> 2026-04-05 | **Versione**: 1
 
 ---
 
@@ -32,11 +32,11 @@ status: draft
 | Indicatore | Status    | Note                                                    |
 | ---------- | --------- | ------------------------------------------------------- |
 | Salute     | 🟡 5.6/10 | score composito (attività + BF + issue + release + sec) |
-| Attività   | 🟢 Attivo | ultimo commit: 2026-03-25                               |
+| Attività   | 🟢 Attivo | ultimo commit: 2026-04-02                               |
 | Bus Factor | 🟢 3      | contributor dominanti                                   |
 | Sicurezza  | ⚪ N/D    | OpenSSF Scorecard                                       |
 | CI/CD      | ⚪ N/D    | da topics repo                                          |
-| Community  | 🟡 2068   | ★ stars                                                 |
+| Community  | 🟡 2075   | ★ stars                                                 |
 
 ---
 
@@ -48,10 +48,10 @@ status: draft
 | Categoria   | Database                                                             |
 | Licenza     | GPL-2.0                                                              |
 | Linguaggio  | PLpgSQL                                                              |
-| Stars       | 2068                                                                 |
-| Forks       | 422                                                                  |
+| Stars       | 2075                                                                 |
+| Forks       | 423                                                                  |
 | Watchers    | 66                                                                   |
-| Open Issues | 3                                                                    |
+| Open Issues | 1                                                                    |
 | Creato      | 2012-05-22 (13 anni fa)                                              |
 | Archivio    | No                                                                   |
 | Fork        | No                                                                   |
@@ -65,7 +65,7 @@ status: draft
 
 | Metrica            | Valore        |
 | ------------------ | ------------- |
-| Ultimo commit      | 2026-03-25    |
+| Ultimo commit      | 2026-04-02    |
 | Commit (30 giorni) | 10            |
 | Commit (90 giorni) | 10            |
 | Trend commit       | ↑ In crescita |
@@ -80,9 +80,9 @@ Totale contributors: **30** (30 umani, 0 bot)
 
 | #   | Contributor    | Contribuzioni | %     | Tipo |
 | --- | -------------- | ------------- | ----- | ---- |
-| 1   | @strk          | 6198          | 36.8% | User |
+| 1   | @strk          | 6199          | 36.8% | User |
 | 2   | @robe2         | 4471          | 26.5% | User |
-| 3   | @pramsey       | 2915          | 17.3% | User |
+| 3   | @pramsey       | 2928          | 17.4% | User |
 | 4   | @dustymugs     | 831           | 4.9%  | User |
 | 5   | @yellow-affrc  | 442           | 2.6%  | User |
 | 6   | @Komzpa        | 330           | 2.0%  | User |
@@ -101,7 +101,7 @@ _... e altri 18 contributors_
 
 | Metrica             | Valore |
 | ------------------- | ------ |
-| Issue aperte        | 3      |
+| Issue aperte        | 1      |
 | Issue chiuse (90gg) | 0      |
 
 ---

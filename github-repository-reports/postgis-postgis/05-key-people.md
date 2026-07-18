@@ -1,6 +1,6 @@
 # Key People: postgis/postgis
 
-Generated: 2026-03-28 Source: https://github.com/postgis/postgis
+Generated: 2026-04-05 Source: https://github.com/postgis/postgis
 
 ---
 
@@ -8,9 +8,9 @@ Generated: 2026-03-28 Source: https://github.com/postgis/postgis
 
 | Rank | GitHub                                                     | Contribuzioni | %     |
 | ---- | ---------------------------------------------------------- | ------------- | ----- |
-| 1    | [@strk](https://github.com/strk)                           | 6198          | 36.8% |
+| 1    | [@strk](https://github.com/strk)                           | 6199          | 36.8% |
 | 2    | [@robe2](https://github.com/robe2)                         | 4471          | 26.5% |
-| 3    | [@pramsey](https://github.com/pramsey)                     | 2915          | 17.3% |
+| 3    | [@pramsey](https://github.com/pramsey)                     | 2928          | 17.4% |
 | 4    | [@dustymugs](https://github.com/dustymugs)                 | 831           | 4.9%  |
 | 5    | [@yellow-affrc](https://github.com/yellow-affrc)           | 442           | 2.6%  |
 | 6    | [@Komzpa](https://github.com/Komzpa)                       | 330           | 2.0%  |
